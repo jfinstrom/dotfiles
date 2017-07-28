@@ -1,7 +1,7 @@
 # .bashrc
 
 # User specific aliases and functions
-//Installs framework then goes back to the originating dir
+#Installs framework then goes back to the originating dir
 installfw() {
  cd /usr/src/freepbx/framework
  ./install --dev-links -n
