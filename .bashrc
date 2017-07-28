@@ -15,7 +15,7 @@ newbranch() {
 gotosrc() {
  cd /usr/src/freepbx/$1
 }
-Seitch to beanch
+#Switch to branch
 switchbranch() {
  git checkout $1/$2
 }
@@ -30,7 +30,7 @@ alias mv='mv -i'
 alias git12='git checkout release/12.0'
 alias git13='git checkout release/13.0'
 alias git14='git checkout release/14.0'
-installs whatever directory you are in
+#installs whatever directory you are in
 alias installpwd='fwconsole ma install $(basename $(pwd))'
 #uses new branch function nb bugfix FREEPBX-XXXX
 alias nb=newbranch
